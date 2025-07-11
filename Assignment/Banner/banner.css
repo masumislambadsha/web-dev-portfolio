@@ -1,0 +1,93 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #DFDBE5;
+            background-image:url(Hero-bg.png);
+            background-color:white;
+            padding: 16px;
+        }
+
+        .banner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4rem;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color:blue;
+        }
+        
+
+        .signup-btn {width: 170px;
+             height: 40px;
+             border-radius: 18px;
+            color:white;
+            background-color: blue;
+            font-size: 1.25rem;
+            background-color:blue;
+            color: #ffffff;
+            border-radius: 30px;
+            font-weight: 500;
+            cursor: pointer;
+            transition-duration: 0.5s;
+        }
+
+        .signup-btn:hover {
+           width: 250px; 
+           height: 80px;
+        }
+
+        .main-content {
+            text-align: center;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        .title {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: px;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 2rem;
+        }
+
+        .title span {
+            display: block;
+        }
+        .final-btn{
+            
+            width: 170px;
+            height: 40px;
+             border-radius: 18px;
+            color:white;
+            background-color: blue;
+            font-size: 1.25rem;
+            color: #ffffff;
+            width: 200px;
+            height: 50px;
+            padding: 15px;
+            transition-duration: 0.5s;
+        }
+        .final-btn:hover {
+           width: 300px; 
+           height: 90px;
+           border-radius: 18px;
+        }
+
+        
+        
+
+        
